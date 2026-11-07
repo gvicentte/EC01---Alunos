@@ -26,14 +26,3 @@ docker run -d -p 8080:80 --name devtech devtech-academy
 Acesse: http://localhost:8080
 
 Parar: `docker compose down` (ou `docker stop devtech && docker rm devtech`).
-
-## Versionamento no GitHub
-```bash
-git init
-git add .
-git commit -m "EC01 - Gerenciamento de alunos (ex01 a ex04) + Docker"
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/devtech-academy.git
-git push -u origin main
-```
-Dica: para mostrar a evolução, faça um commit por exercício.
