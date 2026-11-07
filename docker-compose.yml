@@ -1,0 +1,9 @@
+services:
+  devtech:
+    image: nginx:alpine
+    container_name: devtech-academy
+    ports:
+      - "8080:80"
+    volumes:
+      # volume montado: editou o arquivo, é só dar F5 no navegador
+      - ./:/usr/share/nginx/html:ro
